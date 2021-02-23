@@ -8,3 +8,25 @@
     margin: auto;
     padding: 10px 0;
 }
+
+.order__btn {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-top: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.order__btn:hover {
+    color: white;
+    background-color: sandybrown;
+}
+
+.order__btn:disabled {
+    background-color: #c7c6c6;
+    color: gray;
+}
